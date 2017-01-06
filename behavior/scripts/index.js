@@ -51,7 +51,7 @@ exports.handle = (client) => {
 
     prompt() {
       // Need to prompt user for city    
-      console.log('Need to ask user for city')
+      client.addResponse('prompt/weather_city')
       client.done()
     },
   })
